@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Side Navigation Bar</title>
+<link href="Style.css"  rel="stylesheet">
+<link href="index.js">
+
+</head>
+<body>
+<div class="sidebar">
+  <div class="sidebar-header">
+    <h2>PATHÉ!</h2>
+  </div>
+  <div class="sidebar-item">
+    Mean Girls, Lolita malgré...
+  </div>
+  <div class="sidebar-item">
+    Pathé Azur City
+    <select name="film" class="film-select">
+        <option value="azure-city">Pathé Azur City</option>
+        <option value="mall-sousse">Pathé Mall Of Sousse</option>
+        <option value="tunis-city">Pathé Tunis City</option>
+        <!-- Add more options here as needed -->
+        </select>
+  </div>
+  <div class="sidebar-item">
+            Cinéma
+            <select name="cinemas" class="cinema-select">
+            <option value="azure-city">Pathé Azur City</option>
+            <option value="mall-sousse">Pathé Mall Of Sousse</option>
+            <option value="tunis-city">Pathé Tunis City</option>
+            <!-- Add more options here as needed -->
+            </select>
+        </div>
+  
+  <div class="sidebar-item">
+    Date
+    <input type="date" id="movieDate" name="movie-date" value="2024-01-15">
+  </div>
+  <div class="sidebar-item">
+    Séance
+    <a href="#">18:05 VF</a>
+  </div>
+  <div class="sidebar-item">
+    Fin prévue à 20:10
+  </div>
+</div>
+<div class="main-content">
+  <h2>Bienvenue au Cinéma Pathé!</h2>
+  <div class="hero">
+    <h1>Sélectionnez vos places</h1>
+    <p>138 places libres</p>
+  </div>
+  <div class="cinema-layout">
+    <div class="seats">
+        <!-- Generate seat divs based on your cinema's layout -->
+        <!-- Example: -->
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <!-- Add more .seat divs as needed to create the full layout -->
+        <!-- You can add classes to represent different seat statuses like .occupied or .selected -->
+        </div>
+        <div class="screen">
+        Écran
+        </div>
+        
+        </div>
+        <div class="seats-legend">
+            <div class="legend-item">
+                <span class="legend-icon mine"></span>
+                <span>Mes places</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-icon free"></span>
+                <span>Places libres</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-icon occupied"></span>
+                <span>Places occupées</span>
+            </div>
+        </div>            
+</div>
+
+<script>
+
+  </script>
+</body>
+</html>
